@@ -38,8 +38,3 @@ public class ReservationController {
 		});
 	}
 }
-/*
-return reservationRepository.findById(reservation_id).map(post -> {
-	comment.setPost(post);
-	return commentRepository.save(comment);
-})*/
